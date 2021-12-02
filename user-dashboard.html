@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axie Infinity</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar header">
+                <div class="container">
+                    <div class="logo"><a href="index.html"><img src="./img/logo.jpg" alt="LOGO"></a></div>
+                    <div class="push-left">
+                        <button id="menu-toggler" data-class="menu-active" class="hamburger">
+                            <span class="hamburger-line hamburger-line-top"></span>
+                            <span class="hamburger-line hamburger-line-middle"></span>
+                            <span class="hamburger-line hamburger-line-bottom"></span>
+                        </button>
+
+                        <!--  Menu compatible with wp_nav_menu  -->
+                        <ul id="primary-menu" class="menu nav-menu">
+                            <li class="menu-item current-menu-item"><a class="nav__link"
+                                    href="index.html#videossec">Videos</a>
+                            </li>
+                            <li class="menu-item current-menu-item"><a class="nav__link"
+                                    href="index.html#newssec">News</a></li>
+                            <li class="menu-item current-menu-item"><a class="nav__link"
+                                    href="index.html#pricessec">Price</a>
+                            </li>
+                            <li class="menu-item current-menu-item"><a class="nav__link"
+                                    href="index.html#scholarsection">Scholarship</a></li>
+                        </ul>
+
+                        <div class="userimg">
+                            <img src="./img/user-icon.png" />
+                        </div>
+
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bgbannerdash position-relative w-100">
+            <div class="position-absolute text-white d-flex flex-column align-items-center justify-content-center"
+                style="top: 0; right: 0; bottom: 0; left: 0; ">
+                <h1 class="mb-4 mt-2 font-weight-bold text-center">Welcome <strong>John!</strong></h1>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="chartscholar">
+
+        <div class="container">
+            <div class="headingtxt">
+                <h3>Top 10 Teams</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="canvasdiv">
+                        <canvas id="canvas"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="chartcolorsname">
+                        <p><span></span> John</p>
+                        <p><span></span> Ameer</p>
+                        <p><span></span> Fober</p>
+                        <p><span></span> Jahan</p>
+                        <p><span></span> Anshra</p>
+                        <p><span></span> 12333</p>
+                        <p><span></span> Abcd</p>
+                        <p><span></span> Umer</p>
+                        <p><span></span> q56x</p>
+                        <p><span></span> 2quk</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teamtable">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col" width="10%">Place</th>
+                                <th scope="col" width="70%">Scholar's Name</th>
+                                <th scope="col" width="20%">Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>John</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Ameer</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Fober</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Jahan</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Anshra</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>12333</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Abcd</td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Umer</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>q56x</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>2quk</td>
+                                <td>8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="footerabuimg">
+                            <img src="./img/1.png" />
+                        </div>
+                        <div class="footer-widget">
+
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="./img/logo.jpg" class="img-fluid" alt="logo"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footerabuimg2">
+                            <img src="./img/2.png" />
+                        </div>
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Axie Infinity</h3>
+                            </div>
+                            <p>JOIN THE EXPERIENCE <br>GAMMING FOR LIFE</p>
+                            <div class="linksblock">
+                                <a href="#">Terms and Conditions</a>
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footerabuimg3">
+                            <img src="./img/3.png" />
+                        </div>
+                        <div class="footer-widget">
+                            <div class="footer-social-icon">
+                                <span>SOCIAL NETWORKS</span>
+                                <a href="#"><i class="fa fa-instagram "></i></a>
+                                <a href="#"><i class="fa fa-twitch "></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-youtube "></i></a>
+                                <a href="#"><i class="fa fa-discord fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="index.html">Axie Infinity</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+
+    <script type="text/javascript">
+        var lineChartData = {
+            labels: ["2 Hrs", "4 Hrs", "6 Hrs", "8 Hrs", "10 Hrs", "12 Hrs"],
+            datasets: [{
+                fillColor: "rgba(138,43,226,0)",
+                strokeColor: "rgba(138,43,226,1)",
+                pointColor: "rgba(138,43,226,1)",
+                data: [0, 2, 4, 8, 10, 12]
+            }, {
+                fillColor: "rgba(16,78,139,0)",
+                strokeColor: "rgba(16,78,139,1)",
+                pointColor: "rgba(16,78,139,1)",
+                data: [1, 3, 5, 7, 8, 10]
+            },
+            {
+                fillColor: "rgba(165,42,42,0)",
+                strokeColor: "rgba(165,42,42,1)",
+                pointColor: "rgba(165,42,42,1)",
+                data: [2, 4, 6, 8, 12, 15]
+            }, {
+                fillColor: "rgba(0,100,0,0)",
+                strokeColor: "rgba(0,100,0,1)",
+                pointColor: "rgba(0,100,0,1)",
+                data: [3, 9, 12, 13, 15, 17]
+            }, {
+                fillColor: "rgba(143,35,35,0)",
+                strokeColor: "rgba(143,35,35,1)",
+                pointColor: "rgba(143,35,35,1)",
+                data: [4, 5, 7, 9, 12, 16]
+            }, {
+                fillColor: "rgba(255,140,0,0)",
+                strokeColor: "rgba(255,140,0,1)",
+                pointColor: "rgba(255,140,0,1)",
+                data: [5, 7, 10, 18, 19, 22]
+            }, {
+                fillColor: "rgba(255,36,0,0)",
+                strokeColor: "rgba(255,36,0,1)",
+                pointColor: "rgba(255,36,0,1)",
+                data: [7, 13, 15, 17, 19, 20]
+            },
+            {
+                fillColor: "rgba(255,20,147,0)",
+                strokeColor: "rgba(255,20,147,1)",
+                pointColor: "rgba(255,20,147,1)",
+                data: [8, 15, 16, 18, 19, 20]
+            }, {
+                fillColor: "rgba(255,69,0,0)",
+                strokeColor: "rgba(255,69,0,1)",
+                pointColor: "rgba(255,69,0,1)",
+                data: [12, 14, 16, 18, 20, 22]
+            }, {
+                fillColor: "rgba(128,0,0,0)",
+                strokeColor: "rgba(128,0,0,1)",
+                pointColor: "rgba(128,0,0,1)",
+                data: [14, 16, 18, 22, 22, 24]
+            }
+            ]
+
+        }
+
+        Chart.defaults.global.animationSteps = 50;
+        Chart.defaults.global.tooltipYPadding = 12;
+        Chart.defaults.global.tooltipCornerRadius = 0;
+        Chart.defaults.global.tooltipTitleFontStyle = "normal";
+        Chart.defaults.global.tooltipFillColor = "rgba(0,0,0,0.8)";
+        Chart.defaults.global.animationEasing = "easeOutBounce";
+        Chart.defaults.global.responsive = true;
+        Chart.defaults.global.scaleLineColor = "black";
+        Chart.defaults.global.scaleFontSize = 14;
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+        var LineChartDemo = new Chart(ctx).Line(lineChartData, {
+            pointDotRadius: 3,
+            bezierCurve: false,
+            scaleShowVerticalLines: false,
+            scaleGridLineColor: "black"
+        });
+    </script>
+
+
+</body>
+
+</html>
